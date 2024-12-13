@@ -57,7 +57,7 @@ h1, h2 {
 }
 
 .sidebar ul li a:hover {
-  color: #007BFF;
+  color: lightblue;
 }
 
 /* Main Content */
@@ -81,19 +81,24 @@ main {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  justify-content: center; /* Center for smaller screens */
-  max-width: 900px; /* Set a max-width to prevent overflow */
-    margin: 0 auto;  
+  justify-content: center; 
+  
+  margin: 0 auto;  
+
 }
 
 .profile-pic {
   width: 150px;
-  /* height: 150px;
+   height: 150px;
   border-radius: 50%;
-  object-fit: cover; */
-  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+  object-fit: cover; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
   
+}
+#profile-detail{
+  max-width: 60%;
+  text-align: left;
 }
 
 /* Education Section */
@@ -110,6 +115,10 @@ main {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   align-items: flex-start;
+  transition: transform 0.3s;
+}
+.education-container:hover{
+  transform: translateY(-10px);
 }
 
 .edupic {
@@ -174,7 +183,7 @@ main {
 .project-card img {
   width: 100%; 
   height: auto; 
-  max-width: 500px;
+  max-width: 350px;
   border-radius: 10%; 
   object-fit: cover; 
 }
@@ -185,6 +194,16 @@ main {
 .project-detail{
   width: 200px;
 }
+
+#Contact{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  gap: 20px;
+}
+
 
 
 
@@ -204,12 +223,7 @@ main {
       padding: 0.5rem 0;
       font-size: smaller;
   }
-  #social{
-    display: flex;
-      justify-content: space-around;
-      padding: 0.5rem 0;
-      margin-top: 5px;
-  }
+  
 
   main {
       margin-left: 0;
@@ -225,7 +239,7 @@ main {
   }
 
   .education-detail {
-    text-align: center;
+    left: 30%;
   }
 }
 
