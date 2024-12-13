@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic calculator</title>
+    <link rel="stylesheet" href="calstyle.css">
+</head>
+<body>
+    <div class="container">
+    <p id="display"></p>
+    <div class="calculator">
+        <button id="c"   class="span-two g"    onclick="clearDisplay()">Clear</button>
+        <button id="percen" class="L" onclick="percen()">%</button>
+        <button id="devide" onclick="f('/')" class="L">/</button>
+        <button id="seven"  class="cream"     onclick="f('7')">7</button>
+        <button id="eight" class="cream"  onclick="f('8')">8</button>
+        <button id=nine    class="cream"  onclick="f('9')">9</button>
+        <button id="multi"  onclick="f('*')"   class="L">*</button>
+        <button id="four"  class="cream"  onclick="f('4')">4</button>
+        <button id="five"  class="cream"  onclick="f('5')">5</button>
+        <button id="six"  class="cream"   onclick="f('6')">6</button>
+        <button id="minus"  onclick="f('-')"    class="L">-</button>
+        <button id="one"  class="cream"   onclick="f('1')">1</button>
+        <button id="two"  class="cream"   onclick="f('2')">2</button>
+        <button id="three" class="cream"  onclick="f('3')">3</button>
+        <button id="pluss"  onclick="f('+')" class="L">+</button>
+        <button class="span-two cream"  id="zero"   onclick="f('0')">0</button>
+        <button id="point"class="cream"  onclick="f('.')">.</button>
+        <button id="equal"  class="g" onclick="cal()">=</button>
+      </div>
+      <br>
+
+      <a href="../index.html#projects" id="back"><button>back</button></a>
+    </div>
+      <script src="cal.js"></script>
+</body>
+
+</html>
