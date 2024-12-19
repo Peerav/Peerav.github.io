@@ -1,0 +1,99 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #e6c8c1, #f1c4a4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    /* text-align: center; */
+    
+}
+
+
+
+/* Styling the list */
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Hover effect on list items */
+li:hover {
+    background-color: #e0e0e0;
+}
+
+/* Input field styling */
+input[type="text"] {
+    text-align: left;
+    width: 78%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+/* Focus effect on input */
+input[type="text"]:focus {
+    border-color: #be8734; /* Green border on focus */
+}
+
+.flex-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+#clear{
+    width: 17%;
+    height: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #c0230e;
+    border: none ;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+   
+    display: flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.6s ease-out;
+}
