@@ -71,6 +71,12 @@ button.span-two {
 .L {
     background-color: #a39786;
 }
+.L:hover{
+    background-color: #7e7466;
+}
+.L:active{
+    background-color: #534a3cc4;
+}
 
 .calculator {
     display: grid;
