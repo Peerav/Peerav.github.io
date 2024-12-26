@@ -161,6 +161,7 @@ main {
 /* Projects Section */
 .projects-container {
   display: flex;
+  
   flex-wrap: wrap;
   cursor: pointer;
   
@@ -187,6 +188,10 @@ main {
   background: linear-gradient(45deg, #e6c8c1, #f1c4a4);
   font-size: 17px;
 }
+#thirdproject{
+  background-color: rgb(74, 170, 170);
+}
+
 
 .project-card img {
   width: 100%; 
