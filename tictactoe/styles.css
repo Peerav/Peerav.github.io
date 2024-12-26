@@ -66,4 +66,5 @@ button:active{
     z-index: 100;
     display: none;
     cursor: pointer;
+    padding-left: 15px;
 }
